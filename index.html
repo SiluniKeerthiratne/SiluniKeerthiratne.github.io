@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Siluni Keerthiratne · Machine Learning Engineer</title>
+  <meta name="description" content="Siluni Keerthiratne is a machine learning engineer in Colombo, Sri Lanka, working on computer vision, NLP and agentic AI. BSc AI &amp; Data Science (First Class Honours).">
+  <meta name="author" content="Siluni Keerthiratne">
+  <meta name="color-scheme" content="light dark">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Siluni Keerthiratne · Machine Learning Engineer">
+  <meta property="og:description" content="ML engineer building end-to-end AI systems across computer vision, NLP and agentic AI.">
+  <meta property="og:url" content="https://silunikeerthiratne.github.io/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232b6cb0'/%3E%3Ctext x='16' y='22' font-size='17' text-anchor='middle' fill='white' font-family='sans-serif'%3ESK%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <nav class="nav" aria-label="Sections">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="header">
+    <img class="avatar" src="assets/profile.jpg" onerror="this.onerror=null;this.src='assets/profile-placeholder.svg'" alt="Portrait of Siluni Keerthiratne" width="128" height="128">
+    <div>
+      <h1>Siluni Keerthiratne</h1>
+      <p class="tagline">Machine Learning Engineer · BSc AI &amp; Data Science (First Class Honours)</p>
+      <p class="loc">Colombo, Sri Lanka</p>
+      <ul class="links">
+        <li><a href="mailto:siluni.keerthiratne@gmail.com">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/silunikeerthiratne" rel="me noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/SiluniKeerthiratne" rel="me noopener">GitHub</a></li>
+        <li><a href="assets/cv.pdf">CV</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="about">
+      <h2>About</h2>
+      <p>ML engineer building end-to-end AI systems across computer vision, NLP and agentic AI.</p>
+      <p>First Class Honours in BSc AI and Data Science, Robert Gordon University (April 2026).</p>
+      <p>Currently ML Engineer at Ascentic, delivering ML and agentic AI features for a fintech suite used by several Fortune 500 companies.</p>
+      <p>Final year research on adapting compact vision-language models to Sinhala.</p>
+      <!-- TODO: fill in and remove the `hidden` attribute once the PhD area and intake are decided. -->
+      <p hidden>Seeking a PhD in [TODO: area, intake].</p>
+    </section>
+
+    <section id="research">
+      <h2>Final Year Research</h2>
+      <article class="card featured">
+        <h3>Benchmarking and Adapting Compact Multimodal Models for Sinhala Visual Question Answering</h3>
+        <p class="meta">BSc (Hons) thesis, Robert Gordon University, 2026. Supervisor: Dr Ruvan Weerasinghe.</p>
+        <ul>
+          <li>Sinhala has no VQA dataset or benchmark for compact vision-language models.</li>
+          <li>Built a 37,318-pair Sinhala VQA dataset by translating a vocabulary-stratified subset of Visual Genome.</li>
+          <li>Benchmarked 7 compact VLMs zero-shot; adapted Gemma-3-4B-IT with QLoRA (BLEU 3.77 → 38.02).</li>
+          <li>Compared fine-tuning, continual pre-training and few-shot prompting; direct fine-tuning won.</li>
+        </ul>
+        <p class="buttons">
+          <a class="btn" href="assets/thesis.pdf">Thesis</a>
+          <!-- Paste URLs below; buttons with an empty href are hidden automatically. -->
+          <a class="btn" href="">Dataset</a>
+          <a class="btn" href="">Code</a>
+        </p>
+      </article>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article class="card">
+        <h3>AI-Powered Invoice and Accounting Automation</h3>
+        <p class="meta">Ascentic, fintech</p>
+        <ul>
+          <li>Owned end-to-end delivery of ML and agentic AI features used in production for e-invoicing.</li>
+          <li>Agentic transaction-posting pipeline (LangGraph, per-tenant classifiers, online learning).</li>
+          <li>Serverless PDF-to-PEPPOL extraction (Lambda, Bedrock/Claude, Textract) with OCR-based hallucination detection.</li>
+          <li>Multi-agent finance analyst with a self-correcting Text-to-SQL agent.</li>
+          <li>UNSPSC classification with multilingual embeddings and pgvector.</li>
+          <li>Built evaluation pipelines and an LLM-as-judge framework.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Medical Imaging Computer Vision</h3>
+        <p class="meta">Ascentic</p>
+        <ul>
+          <li>Trained and fine-tuned YOLOv5 to YOLOv12 detectors with data cleaning, augmentation and class balancing.</li>
+          <li>Used Azure ML and Comet ML for training and experiment tracking.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>UN World Food Programme, National Volunteer</h3>
+        <p class="meta">2022</p>
+        <ul>
+          <li>Ran ML and Python workshops for technical officers; led survey data collection and cleaning.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul class="timeline">
+        <li><span class="what">Machine Learning Engineer, Ascentic</span><span class="when">June 2026 to present</span></li>
+        <li><span class="what">Associate Machine Learning Engineer, Ascentic</span><span class="when">July 2025 to June 2026</span></li>
+        <li><span class="what">Software Engineer Intern, Ascentic</span><span class="when">July 2024 to June 2025</span></li>
+        <li><span class="what">National Volunteer, UN World Food Programme</span><span class="when">May to Sept 2022</span></li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul class="timeline">
+        <li><span class="what">BSc AI and Data Science (First Class Honours), Robert Gordon University</span><span class="when">Sept 2022 to April 2026</span></li>
+        <li><span class="what">GCE Advanced Level (Mathematics), Musaeus College, Colombo</span><span class="when"></span></li>
+      </ul>
+
+      <details class="certs">
+        <summary>Certifications</summary>
+        <ul>
+          <li>Knowledge Graphs for RAG</li>
+          <li>Neo4j Fundamentals</li>
+          <li>Machine Learning in Production</li>
+          <li>ML Specialization courses (DeepLearning.AI)</li>
+          <li>Google Data Analytics courses (Coursera)</li>
+        </ul>
+      </details>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <dl class="skills">
+        <dt>ML/AI</dt>
+        <dd><ul class="chips"><li>LLM integration</li><li>Agentic AI (LangGraph, LangChain)</li><li>YOLO</li><li>QLoRA fine-tuning</li><li>LLM-as-judge evaluation</li></ul></dd>
+        <dt>Libraries</dt>
+        <dd><ul class="chips"><li>PyTorch</li><li>TensorFlow</li><li>scikit-learn</li><li>pandas</li><li>NumPy</li></ul></dd>
+        <dt>Development</dt>
+        <dd><ul class="chips"><li>Python</li><li>FastAPI</li><li>.NET Core</li><li>React/Next.js</li><li>SQL</li></ul></dd>
+        <dt>Cloud/MLOps</dt>
+        <dd><ul class="chips"><li>AWS (Lambda, Bedrock, SQS, S3)</li><li>Azure ML</li><li>pgvector</li><li>Docker</li><li>GitHub Actions</li><li>Comet ML</li></ul></dd>
+      </dl>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Open to PhD opportunities and research collaborations.</p>
+      <ul class="links">
+        <li><a href="mailto:siluni.keerthiratne@gmail.com">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/silunikeerthiratne" rel="me noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/SiluniKeerthiratne" rel="me noopener">GitHub</a></li>
+        <li><a href="assets/cv.pdf">CV</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Siluni Keerthiratne.</p>
+  </footer>
+</body>
+</html>
